@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Креатив и природа</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+  </head>
+  <body>
+    <nav class="container-fluid">
+      <ul>
+        <li><strong>NatureFlow</strong></li>
+      </ul>
+      <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Галерея</a></li>
+        <li><a href="#" role="button">Контакты</a></li>
+      </ul>
+    </nav>
+
+    <main class="container">
+      <div class="grid">
+        <section>
+          <hgroup>
+            <h2>Свежий взгляд на природу</h2>
+            <h3>Гармония, свет и креатив</h3>
+          </hgroup>
+          <p>Этот сайт — дань уважения красоте природы и вдохновению, которое она приносит. Чистый дизайн, много пространства и сильные визуальные образы.</p>
+
+          <figure>
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80" alt="Горный пейзаж" />
+            <figcaption><a href="https://unsplash.com/photos/GpY_MMW3PKE" target="_blank">Фото от Unsplash</a></figcaption>
+          </figure>
+
+          <h3>Чистота дизайна</h3>
+          <p>Много воздуха, простая типографика и красивые изображения создают минималистичную эстетику.</p>
+
+          <h3>Природа как вдохновение</h3>
+          <p>Каждый элемент природы может стать началом большой идеи. Этот сайт об этом — о созидании через наблюдение.</p>
+        </section>
+      </div>
+    </main>
+
+    <section aria-label="Subscribe example">
+      <div class="container">
+        <article>
+          <hgroup>
+            <h2>Хочешь получать обновления?</h2>
+            <h3>Подпишись на нашу рассылку</h3>
+          </hgroup>
+          <form class="grid">
+            <input type="text" id="firstname" name="firstname" placeholder="Имя" aria-label="Имя" required />
+            <input type="email" id="email" name="email" placeholder="Электронная почта" aria-label="Email" required />
+            <button type="submit" onclick="event.preventDefault()">Подписаться</button>
+          </form>
+        </article>
+      </div>
+    </section>
+
+    <footer class="container">
+      <small><a href="#">Политика конфиденциальности</a> • <a href="#">Условия использования</a></small>
+    </footer>
+  </body>
+</html>
