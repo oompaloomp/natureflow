@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Галерея NatureFlow</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+    <style>
+      .gallery img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        transition: 0.3s ease;
+      }
+      .gallery img:hover {
+        transform: scale(1.03);
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="container-fluid">
+      <ul>
+        <li><strong>NatureFlow</strong></li>
+      </ul>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="gallery.html">Галерея</a></li>
+        <li><a href="about.html">О проекте</a></li>
+      </ul>
+    </nav>
+
+    <main class="container">
+      <section>
+        <hgroup>
+          <h2>Галерея</h2>
+          <h3>Красота природы в деталях</h3>
+        </hgroup>
+        <div class="grid gallery">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Горы">
+          <img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=800&q=80" alt="Листья">
+          <img src="https://images.unsplash.com/photo-1487730116645-74489c95b41b?auto=format&fit=crop&w=800&q=80" alt="Река">
+        </div>
+      </section>
+    </main>
+
+    <footer class="container">
+      <small><a href="index.html">Главная</a> • <a href="#">Контакты</a></small>
+    </footer>
+  </body>
+</html>
